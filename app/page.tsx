@@ -6,7 +6,7 @@ export default function Home() {
     <main className="min-h-screen w-screen p-24 flex flex-auto flex-row justify-center">
       <div className="w-5/12 h-full flex-grow">
         <div>
-          <h1 className="text-4xl font-bold text-left">Hello, I'm Emmett.</h1>
+          <h1 className="text-4xl font-bold text-left">Hello, I&apos;m Emmett.</h1>
         </div>
         <div className="mt-20">
           <Image
