@@ -39,7 +39,47 @@ export const projects: Project[] = [
         url: 'https://blog-section-11.vercel.app/',
         technologies: ['NextJS', 'NodeJS', 'MongoDB', 'ReactJS', 'Markdown'],
         image: '/project-images/nextjs-blog.png'
-    }
+    },
+    {
+        id: 5,
+        name: 'Medical Informatics Client',
+        description: 'Implemented communications, unit testing, and informatics using C#, MSSQL, and Angular for medical web-based dashboard, allowing regular synchronization plus bidirectional updates, and following strict coding compliances for FDA testing regulations and accurate lab testing.',
+        url: '',
+        technologies: ['.NET Core', 'C#', 'MSSQL', 'Angular', 'WiX', 'Git', 'Azure DevOps', 'REST APIs'],
+        image: '/project-images/unavailable.png'
+    },
+    {
+        id: 6,
+        name: 'Energy Analytics Client #2',
+        description: 'Utilized React, Node, Kinetica, and Amazon Document-based AWS database developing energy analytic website that tracked and displayed millions of datapoints in mere seconds while leveraging React and ES6 for in-depth filtering operations.',
+        url: '',
+        technologies: ['React', 'Node', 'Kinetica', 'AWS Dynamo DB', 'Jira'],
+        image: '/project-images/unavailable.png'
+    },
+    {
+        id: 7,
+        name: 'Energy Analytics Client #1',
+        description: 'Utilized ASP.NET MVC, MSQL, C#, and JavaScript to support existing energy analytics website, adding new features and fixing bugs while following SOLID principles.',
+        url: '',
+        technologies: ['ASP.NET MVC', 'JavaScript', 'JQuery', 'MSSQL', 'C#'],
+        image: '/project-images/unavailable.png'
+    },
+    {
+        id: 8,
+        name: 'Banking Client',
+        description: 'Utilized MSSQL Sevice Brokers to coordinate jobs between database instances.',
+        url: '',
+        technologies: ['MSSQL', 'Service Broker', 'Messaging Queue'],
+        image: '/project-images/unavailable.png'
+    },
+    {
+        id: 9,
+        name: 'Investment Analytics Client',
+        description: 'Developed SSIS packages for investment data project that set foundations for accurate ETL processes, utilizing dozens of efficient stored procedures transforming distinct data inputs into uniform outputs quickly. Also supported existing website for uploading and mapping Excel files that provided data for initial staging tables.',
+        url: '',
+        technologies: ['MSSQL', 'SSIS', 'Stored Procedures', 'AngularJS'],
+        image: '/project-images/unavailable.png'
+    },
 ];
 
 export default projects;
