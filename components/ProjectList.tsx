@@ -9,7 +9,7 @@ function ProjectList() {
       <ul>
         {projects.map((project, index) => (
           <li key={project.id} className="">
-            <div className={index % 2 === 1 ? 'grid grid-cols-2 bg-gray-300 py-10 px-5' : 'grid grid-cols-2 py-10 px-5'}>
+            <div className={index % 2 === 1 ? 'grid grid-cols-2 bg-gray-300 py-10 px-5 text-black' : 'grid grid-cols-2 py-10 px-5'}>
               {index % 2 === 1 ? (
                 <>
                   <ProjectDescription project={project} />
