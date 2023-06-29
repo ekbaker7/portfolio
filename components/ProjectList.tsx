@@ -4,7 +4,7 @@ import { projects } from "@/data/projects";
 import Image from "next/image";
 import ProjectImage from "./ProjectImage";
 import ProjectDescription from "./ProjectDescription";
-import { useMediaQuery } from "@material-ui/core";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 function ProjectList() {
 
