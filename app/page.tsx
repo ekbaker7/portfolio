@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-screen p-24 flex flex-auto flex-row justify-center">
-      <div className="w-5/12 h-full flex-grow">
+    <main className="min-h-screen w-screen p-24 md:flex flex-auto flex-row justify-center">
+      <div className="lg:w-5/12 md:w-full h-full flex-grow">
         <div>
           <h1 className="text-4xl font-bold text-left">Hello, I&apos;m Emmett.</h1>
         </div>
@@ -31,11 +31,11 @@ export default function Home() {
             </a>
         </div>
       </div>
-      <div className="items-center justify-center min-h-full relative w-2/12">
+      <div className="items-center justify-center min-h-full relative lg:w-2/12">
         <div className="h-full border-l border-black absolute left-[50%]"></div>
       </div>
-      <div className="text-left w-5/12">
-        <h2 className="text-3xl">Some of my projects...</h2>
+      <div className="text-left lg:w-5/12 md:w-full">
+        <h2 className="text-3xl sm:mt-10 md:mt-0">Some of my projects...</h2>
         <ProjectList />
       </div>
     </main>

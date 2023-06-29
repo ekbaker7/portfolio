@@ -5,7 +5,7 @@ import ProjectDescription from "./ProjectDescription";
 
 function ProjectList() {
   return (
-    <div className="h-[calc(100vh-25vh)] overflow-auto">
+    <div className="md:h-[calc(100vh-25vh)] overflow-auto">
       <ul>
         {projects.map((project, index) => (
           <li key={project.id} className="">
@@ -13,13 +13,13 @@ function ProjectList() {
               {index % 2 === 1 ? (
                 <>
                   <ProjectDescription project={project} />
-                  <div className="flex justify-end">
+                  <div className="flex justify-end pl-5">
                     <ProjectImage project={project} />
                   </div>
                 </>
               ) : (
                 <>
-                  <div className="relative right-0">
+                  <div className="relative right-0 pr-5">
                     <ProjectImage project={project} />
                   </div>
                   <ProjectDescription project={project} />
