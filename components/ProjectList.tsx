@@ -14,7 +14,7 @@ function ProjectList() {
     <div className="md:h-[calc(100vh-25vh)] overflow-auto">
       <ul>
         {projects.map((project, index) => (
-          <li key={project.id} className="">
+          <li key={project.id}>
             <div className={index % 2 === 1 ? 'md:grid md:grid-cols-2 bg-gray-300 py-10 px-5 text-black' : 'md:grid md:grid-cols-2 py-10 px-5'}>
               {index % 2 === 1 && !isTabletOrPhone ? (
                 <>
@@ -25,7 +25,7 @@ function ProjectList() {
                 </>
               ) : (
                 <>
-                  <div className="relative right-0 pr-5">
+                  <div className={isTabletOrPhone ? "flex justify-center w-full mb-10" : "relative right-0 pr-5"}>
                     <ProjectImage project={project} />
                   </div>
                   <ProjectDescription project={project} />
